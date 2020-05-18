@@ -1,0 +1,5 @@
+django
+flake8
+jedi
+channels
+websockets

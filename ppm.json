@@ -1,0 +1,20 @@
+{
+    "name": "rtc",
+    "author": "MrM4rc",
+    "email": "marcelorap345@gmail.com",
+    "description": "rtc is a real-time chat.",
+    "github": "~",
+    "project_version": "1.0",
+    "scripts": {
+        "start": "./python_modules/bin/python manage.py",
+        "run": "./python_modules/bin/python manage.py runserver",
+        "client": "./python_modules/bin/python client.py"
+    },
+    "dependencies": [
+        "django",
+        "flake8",
+        "jedi",
+        "channels",
+        "websockets"
+    ]
+}

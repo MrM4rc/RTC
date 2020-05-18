@@ -1,0 +1,112 @@
+body {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);
+	background-size: 100vw 100vh;
+}
+
+div#fields {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	margin-top: 1vh;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 80vw;
+	height: 98vh;
+}
+
+div.form-area {
+	margin-top: 10%;
+}
+
+input#user-name{
+	border: none;
+	border-bottom: 2px solid red;
+	background-color: rgba(0, 0, 0, 0);
+	width: 70%;
+	color: white;
+	margin: 5px;
+	margin-bottom: 10px;
+	transition: border 500ms;
+}
+input#user-name:focus {
+	outline: none;
+}
+
+div.color-selector {
+	margin-top: 100px;
+}
+
+div.color-selector ul#color-selector-ul {
+	list-style: none;
+	display: inline-block;
+}
+
+div.color-selector ul#color-selector-ul li#red{
+	border: 2px solid red;
+	width: 60px;
+	height: 60px;
+	margin: 4px;
+	display: inline-block;
+	transition: box-shadow 400ms linear;
+}
+
+div.color-selector ul#color-selector-ul li#blue{
+	border: 2px solid blue;
+	width: 60px;
+	height: 60px;
+	margin: 4px;
+	display: inline-block;
+	transition: box-shadow 400ms linear;
+}
+
+div.color-selector ul#color-selector-ul li#white{
+	border: 2px solid white;
+	width: 60px;
+	height: 60px;
+	margin: 4px;
+	display: inline-block;
+	transition: box-shadow 400ms linear;
+}
+
+div.color-selector ul#color-selector-ul li#green{
+	border: 2px solid green;
+	width: 60px;
+	height: 60px;
+	margin: 4px;
+	display: inline-block;
+	transition: box-shadow 400ms linear;
+}
+
+div.color-selector ul#color-selector-ul li#purple{
+	border: 2px solid purple;
+	width: 60px;
+	height: 60px;
+	margin: 4px;
+	display: inline-block;
+	transition: box-shadow 400ms linear;
+}
+
+div.color-selector ul#color-selector-ul li#purple:hover {
+	box-shadow: 2px 2px 4px purple;
+	cursor: pointer;
+}
+
+div.color-selector ul#color-selector-ul li#red:hover {
+	box-shadow: 2px 2px 4px red;
+	cursor: pointer;
+}
+
+div.color-selector ul#color-selector-ul li#blue:hover {
+	box-shadow: 2px 2px 4px blue;
+	cursor: pointer;
+}
+
+div.color-selector ul#color-selector-ul li#green:hover {
+	box-shadow: 2px 2px 4px green;
+	cursor: pointer;
+}
+
+div.color-selector ul#color-selector-ul li#white:hover {
+	box-shadow: 2px 2px 4px white;
+	cursor: pointer;
+}
